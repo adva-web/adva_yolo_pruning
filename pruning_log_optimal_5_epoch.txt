@@ -1,0 +1,40 @@
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 16
+Pruned 16 channels in layer 1
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 16
+Pruned 16 channels in layer 1
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 16
+Pruned 16 channels in layer 1
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 16
+Pruned 16 channels in layer 1
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 16
+Pruned 16 channels in layer 1
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 16
+Pruned 16 channels in layer 1
+Final mAP_0.5:0.95=0.4708518731432516, mAP_0.5=0.6801619182447673, precision=0.7270593441129554, recall=0.6094794304106873
+Per-class mAP@0.5:
+Class 0: 0.5338
+Class 1: 0.5289
+Class 2: 0.4071
+Class 3: 0.2963
+Class 4: 0.3512
+Class 5: 0.6303
+Class 6: 0.5711
+Class 7: 0.5694
+Class 8: 0.3279
+Class 9: 0.4576
+Class 10: 0.3718
+Class 11: 0.5348
+Class 12: 0.5874
+Class 13: 0.5292
+Class 14: 0.5598
+Class 15: 0.2325
+Class 16: 0.5038
+Class 17: 0.4060
+Class 18: 0.5784
+Class 19: 0.4397

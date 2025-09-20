@@ -1,0 +1,9 @@
+Layer 1 channels before pruning: 32
+Layer 1 channels before pruning: 32
+Layer 1 channels before pruning: 32
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 32
+Pruned 0 channels in layer 1
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 32
+Pruned 0 channels in layer 1

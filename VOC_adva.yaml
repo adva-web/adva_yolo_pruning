@@ -1,0 +1,26 @@
+train: /Users/ahelman/adva_yolo_pruning/pruning/dataset_voc/images/train
+val: /Users/ahelman/adva_yolo_pruning/pruning/dataset_voc/images/val
+
+nc: 20  # number of classes
+
+names:
+  - aeroplane
+  - bicycle
+  - bird
+  - boat
+  - bottle
+  - bus
+  - car
+  - cat
+  - chair
+  - cow
+  - diningtable
+  - dog
+  - horse
+  - motorbike
+  - person
+  - pottedplant
+  - sheep
+  - sofa
+  - train
+  - tvmonitor

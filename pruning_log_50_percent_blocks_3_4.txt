@@ -1,0 +1,31 @@
+
+--- Pruning Session ---
+Layers pruned: 2
+Layer Details:
+  Layer 1: Block 4, Local #4, Original model #11, Current #11: 64→32 channels (gamma: 0.770660)
+  Layer 2: Block 4, Local #3, Original model #10, Current #10: 64→32 channels (gamma: 0.773670)
+Total channels: 128→64 (50.0% reduction)
+Performance: mAP_0.5:0.95=0.6109292065198305, mAP_0.5=0.7967883417979074, precision=0.8195346474383909, recall=0.7215260632449143
+--- End Session ---
+
+
+--- Pruning Session ---
+Layers pruned: 2
+Layer Details:
+  Layer 1: Block 5, Local #0, Original model #13, Current #13: 256→128 channels (gamma: 0.889557)
+  Layer 2: Block 6, Local #3, Original model #17, Current #17: 128→64 channels (gamma: 0.909992)
+Total channels: 384→192 (50.0% reduction)
+Performance: mAP_0.5:0.95=0.607161952557763, mAP_0.5=0.7938403925760157, precision=0.8103758133288899, recall=0.7190993748570085
+--- End Session ---
+
+
+--- Pruning Session ---
+Layers pruned: 3
+Layer Details:
+  Layer 1: Block 4, Local #4, Original model #11, Current #11: 64→32 channels (gamma: 0.770660)
+  Layer 2: Block 4, Local #3, Original model #10, Current #10: 64→32 channels (gamma: 0.773670)
+  Layer 3: Block 4, Local #0, Original model #7, Current #7: 128→64 channels (gamma: 0.821417)
+Total channels: 256→128 (50.0% reduction)
+Performance: mAP_0.5:0.95=0.6091979612736749, mAP_0.5=0.7950641897458008, precision=0.8208423233173588, recall=0.7205132031798017
+--- End Session ---
+

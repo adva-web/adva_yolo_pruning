@@ -1,0 +1,52 @@
+Layer 13 channels after pruning: 118
+Pruned 138 channels in layer 13
+Layer 13 channels after pruning: 119
+Pruned 137 channels in layer 13
+Layer 13 channels after pruning: 119
+Pruned 137 channels in layer 13
+Final mAP_0.5:0.95=0.6066600230688297, mAP_0.5=0.7964538933012103, precision=0.8228889858791624, recall=0.7157342217411833
+Per-class mAP@0.5:
+Class 0: 0.6964
+Class 1: 0.6579
+Class 2: 0.5758
+Class 3: 0.4457
+Class 4: 0.4875
+Class 5: 0.7485
+Class 6: 0.6668
+Class 7: 0.7321
+Class 8: 0.4692
+Class 9: 0.6258
+Class 10: 0.4740
+Class 11: 0.6993
+Class 12: 0.6978
+Class 13: 0.6603
+Class 14: 0.6524
+Class 15: 0.3260
+Class 16: 0.6346
+Class 17: 0.5648
+Class 18: 0.7184
+Class 19: 0.5999
+Layer 13 channels after pruning: 119
+Pruned 137 channels in layer 13
+Final mAP_0.5:0.95=0.606095170063851, mAP_0.5=0.7972365647432815, precision=0.822344617794515, recall=0.7126939337786622
+Per-class mAP@0.5:
+Class 0: 0.6936
+Class 1: 0.6597
+Class 2: 0.5829
+Class 3: 0.4508
+Class 4: 0.4836
+Class 5: 0.7506
+Class 6: 0.6682
+Class 7: 0.7271
+Class 8: 0.4658
+Class 9: 0.6370
+Class 10: 0.4631
+Class 11: 0.6991
+Class 12: 0.6952
+Class 13: 0.6574
+Class 14: 0.6545
+Class 15: 0.3365
+Class 16: 0.6361
+Class 17: 0.5553
+Class 18: 0.7147
+Class 19: 0.5906

@@ -1,0 +1,20 @@
+
+--- Activation-Based Pruning Session ---
+Layers pruned: 2
+Layer Details:
+  Layer 1: Block 5, Conv #0, Original model #13: 256→256 channels
+  Layer 2: Block 3, Conv #0, Original model #6: 128→128 channels
+Total channels: 384→384 (0.0% reduction)
+Performance: mAP_0.5:0.95=0.6000592338779087, mAP_0.5=0.7894878230704506, precision=0.8123944671662674, recall=0.7159154890012857
+--- End Session ---
+
+
+--- Activation-Based Pruning Session ---
+Layers pruned: 2
+Layer Details:
+  Layer 1: Block 5, Conv #0, Original model #13: 256→256 channels
+  Layer 2: Block 3, Conv #0, Original model #6: 128→128 channels
+Total channels: 384→384 (0.0% reduction)
+Performance: mAP_0.5:0.95=0.601111627557126, mAP_0.5=0.7915095065823536, precision=0.8230421236304639, recall=0.7127805023552629
+--- End Session ---
+

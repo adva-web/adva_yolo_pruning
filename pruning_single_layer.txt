@@ -1,0 +1,4 @@
+DEBUG: Extracted weights norm for layer 6, shape: (64,)DEBUG: Extracted weights norm for layer 6, shape: torch.Size([64, 32, 3, 3])
+DEBUG: Extracted weights norm for layer 6, shape: (64,)DEBUG: Extracted weights norm for layer 6, shape: torch.Size([64, 32, 3, 3])
+DEBUG: Extracted weights norm for layer 6, shape: (64,)DEBUG: Extracted weights norm for layer 6, shape: torch.Size([64, 32, 3, 3])
+DEBUG: Extracted weights norm for layer 6, shape: (64,)

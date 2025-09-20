@@ -1,0 +1,35 @@
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 28
+Pruned 4 channels in layer 1
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 28
+Pruned 4 channels in layer 1
+k=4, mAP_0.5:0.95=0.5213971804033745, mAP_0.5=0.7282029200710285, precision=0.7459519081370858, recall=0.6574950333411815
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 26
+Pruned 6 channels in layer 1
+k=6, mAP_0.5:0.95=0.5220062135790474, mAP_0.5=0.7292327818360915, precision=0.7462149990461348, recall=0.6592754823293777
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 24
+Pruned 8 channels in layer 1
+k=8, mAP_0.5:0.95=0.5136614934374835, mAP_0.5=0.7210034744190493, precision=0.7428118458678006, recall=0.6480111960043244
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 22
+Pruned 10 channels in layer 1
+k=10, mAP_0.5:0.95=0.5118087383788269, mAP_0.5=0.7190072437330184, precision=0.7411607596302983, recall=0.6512872717283116
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 20
+Pruned 12 channels in layer 1
+k=12, mAP_0.5:0.95=0.5075612606032547, mAP_0.5=0.717071643483512, precision=0.7439778232917169, recall=0.6445857663524261
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 18
+Pruned 14 channels in layer 1
+k=14, mAP_0.5:0.95=0.5114323117590768, mAP_0.5=0.7194825331559891, precision=0.7417053199040031, recall=0.6500850091130217
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 16
+Pruned 16 channels in layer 1
+k=16, mAP_0.5:0.95=0.5053351995655152, mAP_0.5=0.7145130595798893, precision=0.7494464600774712, recall=0.6394177409751306
+Layer 1 channels before pruning: 32
+Layer 1 channels after pruning: 14
+Pruned 18 channels in layer 1
+k=18, mAP_0.5:0.95=0.5039666385173102, mAP_0.5=0.7129462406726489, precision=0.7289335302206477, recall=0.6420717153898382

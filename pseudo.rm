@@ -1,0 +1,48 @@
+# YOLO Model Pruning Pipeline (Pseudocode)
+
+Input: 
+    M0 = original YOLO model
+    D_train = training dataset
+    D_valid = validation dataset
+
+# 1. Baseline Evaluation
+(R0, S0) = Evaluate(M0, D_valid)
+    # R0: raw detections, S0: summary statistics
+
+# 2. Block-wise Pruning Loop
+For each block l in {2, ..., L}:
+    For each conv layer conv_lj in block l and each banch normalization layer BN_lj:
+        # 2.1 Build sub-network
+        M_lj = SubNetwork(M, conv_lj)
+        
+        # 2.2 Gather activations
+        A_lj = GatherActivations(M_lj, D_train, IOU_threshold=0.5)
+        
+        # 2.3 Construct graph space
+        G_lj = BuildGraphSpace(A_lj)
+        
+        # 2.4 Channel selection loop
+        For k in {2, ..., num_channels(conv_lj)}:
+            clusters = KMedoids(G_lj, k)
+            # Select component with highest gamma from the BN in each cluster
+            selected = [component with max gamma (from the BN) in cluster for cluster in clusters]
+            MSS_k = ComputeMSS(selected)
+        
+        # 2.5 Find optimal k using kneedle algorithm
+        k_star = Kneedle([MSS_k for k])
+        
+        # 2.6 Prune layer
+        M = PruneLayer(M, conv_lj, k_star)
+        
+        # 2.7 Evaluate before retraining (for debugging)
+        (R_pre, S_pre) = Evaluate(M, D_valid)
+        
+        # 2.8 Retrain
+        M = Retrain(M, D_train, epochs)
+        
+        # 2.9 Evaluate after retraining
+        (R_post, S_post) = Evaluate(M, D_valid)
+
+# 3. Final Retraining & Evaluation
+M_star = Retrain(M, D_train, epochs=E)
+(R_star, S_star) = Evaluate(M_star, D_valid)

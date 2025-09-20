@@ -1,0 +1,24 @@
+Layer 6 channels after pruning: 60
+Pruned 68 channels in layer 6
+Final mAP_0.5:0.95=0.6000592338779087, mAP_0.5=0.7894878230704506, precision=0.8123944671662674, recall=0.7159154890012857
+Per-class mAP@0.5:
+Class 0: 0.6984
+Class 1: 0.6587
+Class 2: 0.5787
+Class 3: 0.4456
+Class 4: 0.4867
+Class 5: 0.7451
+Class 6: 0.6697
+Class 7: 0.7207
+Class 8: 0.4468
+Class 9: 0.5999
+Class 10: 0.4658
+Class 11: 0.6987
+Class 12: 0.6976
+Class 13: 0.6546
+Class 14: 0.6512
+Class 15: 0.3241
+Class 16: 0.6285
+Class 17: 0.5364
+Class 18: 0.7019
+Class 19: 0.5921
