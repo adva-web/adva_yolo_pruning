@@ -1,0 +1,33 @@
+# YOLOv8 Pruning Server Requirements
+# Optimized for GPU server deployment
+
+# Core ML/DL frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.2.34
+
+# Computer Vision
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# Configuration and utilities
+PyYAML>=6.0
+tqdm>=4.65.0
+matplotlib>=3.7.0
+tabulate>=0.9.0
+
+# Optional: For better performance
+# Uncomment if you have CUDA support
+# torch-audio>=2.0.0  # For audio processing if needed
+# tensorboard>=2.13.0  # For training visualization
+
+# Development and debugging (optional)
+# jupyter>=1.0.0
+# ipython>=8.0.0
+
